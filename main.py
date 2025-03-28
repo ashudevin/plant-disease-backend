@@ -358,7 +358,7 @@ DISEASE_INFO = {
 }
 
 
-@app.get("/ping")
+@app.get("/")
 async def ping():
     return {"message": "Hello, I am alive"}
 
